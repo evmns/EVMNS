@@ -24,8 +24,6 @@ docker run -dp 3000:3000 evmns/development:0.0.1
 
 ```
 
-This will produce `talk.abi` and `talk.wasm`.
-
 ## Run it from sources
 
 ```
