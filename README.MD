@@ -13,18 +13,24 @@ https://evmns.space
 
 # Development
 
-## Opening a terminal
+During the development phase, we will be using Docker images to provide a standardized development environment for the team, and continuously update it as development progresses.
+
+## Docker Images
+https://hub.docker.com/repository/docker/evmns/development
+
+
+### Opening a terminal
 
 To open a terminal, use the Terminal drop-down menu in the IDE user interface.
 
-## Run a Docker image
+### Run a Docker image
 
 ```
 docker run -dp 3000:3000 evmns/development:0.0.1 
 
 ```
 
-## Run it from sources
+### Run it from sources
 
 ```
 git clone xxxxxxxxx/evmns.git
