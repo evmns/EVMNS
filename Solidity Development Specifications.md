@@ -98,7 +98,7 @@ Non-Compliant way:
     }}
 
 Source file coding mode
-UTF-8 or ASCII ecoding is preferred
+UTF-8 or ASCII encoding is preferred
 
 introduce
 The introduction declaration is usually made at the beginning of the code
