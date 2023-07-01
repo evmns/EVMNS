@@ -26,16 +26,16 @@ To open a terminal, use the Terminal drop-down menu in the IDE user interface.
 ### Run a Docker image
 
 ```
-docker run -dp 3000:3000 evmns/development:0.0.1 
+docker run -dp  8545:8545 evmns/development
 
 ```
 
 ### Run it from sources
 
 ```
-git clone xxxxxxxxx/evmns.git
+git clone git@github.com:evmns/evmns-contracts.git
 yarn install
-yarn buildit
+yarn hardhat node
 
 ```
 
@@ -47,3 +47,4 @@ The source code for the unit test is at the `tests` directory within the IDE. To
 yarn test
 
 ```
+## 
